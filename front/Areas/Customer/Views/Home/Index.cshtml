@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - front</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/front.styles.css" asp-append-version="true" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+	<title>Untitled Document</title>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="~/js/bootstrap-4.4.1.js">
+	<link rel="stylesheet" href="~/css/stytle.css">
+</head>
+<body id="apple" style="background-color: rgb(126, 130, 162);">
+	<!-- body code goes here -->
+
+	<header class="text-center d-flex">
+		<div class="container my-auto">
+			<div class="row">
+				<div class="col-lg-10 mx-auto">
+					<b></b><h1 class="text-uppercase">商品展示</h1></b>
+					<hr>
+				</div>
+				<div class="col-lg-8 mx-auto">
+
+					<p>這是一個展示商品的練習網站，方便我們做資料庫的呈現</p>
+					<p>圖片基本都由自己拍攝，內容部分如有侵權請見諒</p>
+					<a class="btn btn-info btn-xl" class="nav-link js-scroll-trigger" href="#a">查看更多</a>
+					<br>
+					<br>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap-4.4.1.js"></script>
+	<section id="a" class="a-section">
+		<br>
+		<center><h1 style="padding: 20dp;color: azure;"><b>全部商品</b></h1></center><br>
+
+		<div class="row pb-3">
+			@foreach (var product in Model)
+			{
+				<div class="col-lg-3 col-md-6">
+					<div class="row p-2">
+						<div class="col-12 p-1" style="border:1px solid azure; border-radius: 5px">
+							<div class="card">
+								<img src="@product.ImageUrl" class="card-img-top rounded">
+								<div class="card-body">
+									<div class="p-1">
+										<p class="card-title h5 text-primary">@product.Name</p>
+
+									</div>
+									<div class="p-1">
+										<p>價格：<b>$@product.Price.ToString("0.00")</b></p>
+									</div>
+									<hr>
+									<div class="p-1">
+										<p>@product.Description</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			}
+		</div>
+
+
+		</center>
+		<div class="offset-xl-0 col-xl-12" id="accordion1" role="tablist">
+			<div class="card">
+				<div class="card-header" role="tab" id="headingOne1">
+					<h5 class="mb-0"> <a data-toggle="collapse" href="#collapseOne1" role="button" aria-expanded="true" aria-controls="collapseOne1"> MATYREE 十二星座 </a> </h5>
+				</div>
+				<div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordion1">
+					<div class="card-body">
+						當明亮閃耀的星光，拖著長長的尾巴劃過夜空，組成畫布上絢爛奪目的星座圖案，心裡湧動著好奇泡泡的娃娃們便約定好，要在這周末的便裝舞會上演出性格迥異的百變星座。
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab" id="headingTwo1">
+					<h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo1" role="button" aria-expanded="false" aria-controls="collapseTwo1"> 扭蛋 </a> </h5>
+				</div>
+				<div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1" data-parent="#accordion1">
+					<div class="card-body">
+						「轉蛋玩具」是以小型自動販賣機來販售商品。購買方式是將硬幣投入後旋轉把手，裝在塑膠容器內的玩具掉下後即可取出。
+						在日本有「GACHA GACHA」、「GACHAPON」、「GASHAPON」、「GASHA」、「PIICUP」等名稱，因時代，地區，製造商而有所不同。以商標來說整體統稱為「轉蛋玩具」。
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
