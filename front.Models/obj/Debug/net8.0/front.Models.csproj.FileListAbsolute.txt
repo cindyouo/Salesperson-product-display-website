@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\fronttest\front\front.Models\bin\Debug\net8.0\front.Models.deps.json
+C:\Users\user\Desktop\fronttest\front\front.Models\bin\Debug\net8.0\front.Models.dll
+C:\Users\user\Desktop\fronttest\front\front.Models\bin\Debug\net8.0\front.Models.pdb
+C:\Users\user\Desktop\fronttest\front\front.Models\obj\Debug\net8.0\front.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\fronttest\front\front.Models\obj\Debug\net8.0\front.Models.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\fronttest\front\front.Models\obj\Debug\net8.0\front.Models.AssemblyInfo.cs
+C:\Users\user\Desktop\fronttest\front\front.Models\obj\Debug\net8.0\front.Models.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\fronttest\front\front.Models\obj\Debug\net8.0\front.Models.dll
+C:\Users\user\Desktop\fronttest\front\front.Models\obj\Debug\net8.0\refint\front.Models.dll
+C:\Users\user\Desktop\fronttest\front\front.Models\obj\Debug\net8.0\front.Models.pdb
+C:\Users\user\Desktop\fronttest\front\front.Models\obj\Debug\net8.0\ref\front.Models.dll
+C:\Users\user\Desktop\fronttest\front\front.Models\obj\Debug\net8.0\front.Models.csproj.AssemblyReference.cache
