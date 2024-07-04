@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\fronttest\front\front.Utility\bin\Debug\net8.0\front.Utility.deps.json
+C:\Users\user\Desktop\fronttest\front\front.Utility\bin\Debug\net8.0\front.Utility.dll
+C:\Users\user\Desktop\fronttest\front\front.Utility\bin\Debug\net8.0\front.Utility.pdb
+C:\Users\user\Desktop\fronttest\front\front.Utility\obj\Debug\net8.0\front.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\fronttest\front\front.Utility\obj\Debug\net8.0\front.Utility.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\fronttest\front\front.Utility\obj\Debug\net8.0\front.Utility.AssemblyInfo.cs
+C:\Users\user\Desktop\fronttest\front\front.Utility\obj\Debug\net8.0\front.Utility.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\fronttest\front\front.Utility\obj\Debug\net8.0\front.Utility.dll
+C:\Users\user\Desktop\fronttest\front\front.Utility\obj\Debug\net8.0\refint\front.Utility.dll
+C:\Users\user\Desktop\fronttest\front\front.Utility\obj\Debug\net8.0\front.Utility.pdb
+C:\Users\user\Desktop\fronttest\front\front.Utility\obj\Debug\net8.0\ref\front.Utility.dll
+C:\Users\user\Desktop\fronttest\front\front.Utility\obj\Debug\net8.0\front.Utility.csproj.AssemblyReference.cache
